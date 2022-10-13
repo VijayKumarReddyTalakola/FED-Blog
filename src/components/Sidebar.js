@@ -4,7 +4,7 @@ import { SidebarData } from "./SidebarData";
 const Sidebar = () => {
   return (
     <>
-      <aside className="Sidebar">
+      <div className="Sidebar">
         <div>
           <ul className="SidebarList">
             {SidebarData.map((val, key) => {
@@ -22,7 +22,7 @@ const Sidebar = () => {
             })}
           </ul>
         </div>
-      </aside>
+      </div>
     </>
   );
 };

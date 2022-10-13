@@ -1,14 +1,11 @@
 export const SidebarData = [
   {
-    title: "map()",
-    link: "/map",
+    title: "Event Handling",
+    link: "/event",
   },
   {
-    title: "add on 1",
-    link: "/addon1",
+    title: "Functional Components ",
+    link: "/funccomp",
   },
-  {
-    title: "add on 2",
-    link: "/addon1",
-  },
+
 ];
