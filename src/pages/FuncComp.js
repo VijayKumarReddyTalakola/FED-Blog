@@ -39,7 +39,7 @@ const FuncComp = () => {
      Typically, new React apps have a single App component at the very top. However, if you integrate React into an existing app, you might start bottom-up with a small component like Button and gradually work your way to the top of the view hierarchy.<br/><br/>
      <h1>Extracting Components</h1><br/>
      Don’t be afraid to split components into smaller components.<br/><br/>
-     For example, consider this Comment component:<br/>
+     For example, consider this Comment component:<br/><br/>
      < img className="large" src= {code12} alt ="" /><br/><br/>
      Extracting components might seem like grunt work at first, but having a palette of reusable components pays off in larger apps. A good rule of thumb is that if a part of your UI is used several times (Button, Panel, Avatar), or is complex enough on its own (App, FeedStory, Comment), it is a good candidate to be extracted to a separate component.
     

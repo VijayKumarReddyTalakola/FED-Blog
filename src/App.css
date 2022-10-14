@@ -74,6 +74,10 @@
   position: relative;
 
 }
+
+.event img{
+  border-radius: 10px;
+}
 .event .small{
   width: 700px;
   height:100px;

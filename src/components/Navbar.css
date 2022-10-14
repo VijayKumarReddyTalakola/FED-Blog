@@ -1,13 +1,13 @@
 .navbar {
   background: black;
-  height: 80px;
+  height: 90px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
   overflow: hidden;
-  position:relative;
+  position:static;
 }
 
 .navbar-logo {
@@ -46,4 +46,16 @@
   background-color: #59ce8f;
   border-radius: 4px;
   transition: all 0.2s ease-out;
+}
+
+.navbar img{
+  margin-left: 20px;
+  width: 80px;
+  height: 60px;
+}
+
+.navbar span{
+  margin-left: 20px;
+  font-size:  40px;
+  color: white;
 }

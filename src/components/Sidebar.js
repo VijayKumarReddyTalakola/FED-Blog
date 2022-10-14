@@ -13,7 +13,7 @@ const Sidebar = () => {
                   key={key}
                   className="row"
                   onClick={() => {
-                    window.location.pathname = val.link;
+                     window.location.pathname = val.link;
                   }}
                 >
                   <div id="title">{val.title}</div>
