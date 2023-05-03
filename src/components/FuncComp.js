@@ -1,10 +1,10 @@
 import React from "react";
-import code7 from "./Images/code.png"
-import code8 from "./Images/code8.png"
-import code9 from "./Images/code9.png"
-import code10 from "./Images/code10.png"
-import code11 from "./Images/code11.png"
-import code12 from "./Images/code12.png"
+import code7 from "../assets/Images/code.png"
+import code8 from "../assets/Images/code8.png"
+import code9 from "../assets/Images/code9.png"
+import code10 from "../assets/Images/code10.png"
+import code11 from "../assets/Images/code11.png"
+import code12 from "../assets/Images/code12.png"
 const FuncComp = () => {
   return (
     <>

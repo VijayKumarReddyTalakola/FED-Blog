@@ -1,6 +1,8 @@
 import React from "react";
-import "../App.css";
 import { SidebarData } from "./SidebarData";
+import "../App.css";
+import { Link } from "react-router-dom";
+
 const Sidebar = () => {
   return (
     <>
@@ -9,15 +11,16 @@ const Sidebar = () => {
           <ul className="SidebarList">
             {SidebarData.map((val, key) => {
               return (
-                <li
-                  key={key}
-                  className="row"
-                  onClick={() => {
-                     window.location.pathname = val.link;
-                  }}
-                >
+                <>
+                  <Link to = {`${val.link}`}>
+                  <li
+                    key={key}
+                    className="row"
+                  >
                   <div id="title">{val.title}</div>
-                </li>
+                  </li>
+                  </Link>
+                </>
               );
             })}
           </ul>

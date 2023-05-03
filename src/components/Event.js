@@ -1,15 +1,15 @@
 import React from "react";
-import code from "./Images/code.png"
-import code1 from "./Images/code1.png"
-import code2 from "./Images/code2.png"
-import code3 from "./Images/code3.png"
-import code4 from "./Images/code4.png"
-import code5 from "./Images/code5.png"
-import code6 from "./Images/code6.png"
+import code from "../assets/Images/code.png"
+import code1 from "../assets/Images/code1.png"
+import code2 from "../assets/Images/code2.png"
+import code3 from "../assets/Images/code3.png"
+import code4 from "../assets/Images/code4.png"
+import code5 from "../assets/Images/code5.png"
+import code6 from "../assets/Images/code6.png"
 const Event = () => {
   return (
     <>
-    <div className="event" >
+    <div className="event">
     <h1>Event Handling </h1><br/>
     Handling events with React elements is very similar to handling events on DOM elements. There are some syntax differences:
     <br/><br/>
